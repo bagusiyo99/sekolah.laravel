@@ -20,8 +20,9 @@
                         <a href="#personal-saya" class="text-dark text-daftar" data-bs-toggle="collapse">
 
                             <div class="p-4 text-daftar">
-                                <h5 class="font-size-16 mb-1">Data Pribadi</h5>
-                                <p>FIle maksimal 2mb </p>
+                                <h5 class="font-size-16 mb-1">Kritik Dan Saran</h5>
+                                <p>Kritik dan Saran Anda dapat membantu meningkatkan kualitas sekolah ini. Terima Kasih
+                                </p>
 
                             </div>
                         </a>

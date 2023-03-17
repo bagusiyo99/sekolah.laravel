@@ -137,9 +137,11 @@
                 <div
                     class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                     <div class="col p-4 d-flex flex-column position-static masee">
-                        <strong class="d-inline-block mb-2 text-success">Informasi Terbaru</strong>
-                        <h3 class="mb-1">{{ $item->judul }}</h3>
-                        <p class="card-text mb-3">{!! Str::limit($item->deskripsi, 200) !!}</p>
+                        <strong class="d-inline-block mb-2 text-success">
+                            {{ $item->created_at->format('d F Y ') }}
+                        </strong>
+                        <h5 class="mb-3">{{ $item->judul }}</h5>
+                        <p class="card-text mb-3">{!! Str::limit($item->deskripsi, 90) !!}</p>
                         <a clas="info mt-5" href="/informasi/{{ $item->id }}">Lanjutkan Membaca</a>
                     </div>
                     <div class="col-auto d-none d-lg-block">
